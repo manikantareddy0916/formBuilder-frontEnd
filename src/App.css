@@ -1,0 +1,291 @@
+.btn-spacing .btn {
+  padding: 10px 20px; /* Add padding inside the button */
+  margin: 5px; /* Add margin outside the button for distance */
+}
+/* Container styling */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title and subtitle */
+.title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+/* Create button */
+.btn-create {
+  background-color: #28a745;
+  color: white;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-create:hover {
+  background-color: #218838;
+}
+
+/* Separator line */
+.separator {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+/* Forms section */
+.forms-section {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forms-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.no-forms-message {
+  font-size: 1em;
+  color: #999;
+  margin-top: 20px;
+}
+/* NewForm.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-editor-wrapper {
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-preview {
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form-preview-form {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.edit-icon {
+  cursor: pointer;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #ff0000;
+  margin-left: 10px;
+}
+
+.btn-spacing {
+  margin-bottom: 20px;
+}
+
+.form-element {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-element label {
+  margin-left: 40px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.btn-add, .btn-close-add, .btn-primary, .btn-submit, .btn-create-form {
+  margin: 5px;
+}
+
+.btn-add {
+  color: blue;
+}
+
+.btn-close-add {
+  color: red;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-create-form {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-options {
+  margin-top: 20px;
+}
+
+.form-editor {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form-editor input {
+  margin-bottom: 10px;
+}
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn-create {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff; /* Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-create:hover {
+  background-color: #0056b3;
+}
+
+.separator {
+  margin: 20px 0;
+}
+
+.forms-section {
+  margin-top: 20px;
+}
+
+.forms-title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.forms-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.form-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.form-name {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-view {
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #007bff; /* Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #dc3545; /* Red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-view:hover {
+  background-color: #218838;
+}
+
+.btn-edit:hover {
+  background-color: #0056b3;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.no-forms-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #6c757d;
+}
